@@ -1,0 +1,5 @@
+---
+applications:
+- name: mongoosedemo
+  command: node backend/server.js
+  buildpacks: [https://github.com/cloudfoundry/nodejs-buildpack]
